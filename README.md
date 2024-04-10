@@ -20,19 +20,19 @@ In the 2nd part of the evaluation, k is set to 3 to see how RAG works for each o
 
 Taking just the Top 1 Results (RAG including next neighbor):
 
-Failure Score Mistral Embedding Model (mistral-embed):          7   => 93 %
-Failure Score OpenAI Embedding Model (text-embedding-ada-002):  13  => 87 %
-Failure Score OpenAI Embedding Model (text-embedding-3-small):  15  => 85 %
-Failure Score OpenAI Embedding Model (text-embedding-3-large):  7   => 93 %
+- Failure Score Mistral Embedding Model (mistral-embed):          7   => 93 %
+- Failure Score OpenAI Embedding Model (text-embedding-ada-002):  13  => 87 %
+- Failure Score OpenAI Embedding Model (text-embedding-3-small):  15  => 85 %
+- Failure Score OpenAI Embedding Model (text-embedding-3-large):  7   => 93 %
 
 Best model (for this dataset in German): mistral-embed
 
 Result for Top 3 Results (RAG including next 3 neighbors):
 
-Failure Score Mistral Embedding Model (mistral-embed):          4   => 96 %
-Failure Score OpenAI Embedding Model (text-embedding-ada-002):  3   => 97 %
-Failure Score OpenAI Embedding Model (text-embedding-3-small):  4   => 96 %
-Failure Score OpenAI Embedding Model (text-embedding-3-large):  2   => 98 %
+- Failure Score Mistral Embedding Model (mistral-embed):          4   => 96 %
+- Failure Score OpenAI Embedding Model (text-embedding-ada-002):  3   => 97 %
+- Failure Score OpenAI Embedding Model (text-embedding-3-small):  4   => 96 %
+- Failure Score OpenAI Embedding Model (text-embedding-3-large):  2   => 98 %
 
 Best model (for this dataset in German): text-embedding-3-large
 
