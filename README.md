@@ -12,7 +12,7 @@ RAG for enterprises is called RAGE and currently means a lot for the use of digi
 
 ## Evaluation Metrics
 
-The results of the evaluation are based on the RAG algorithm, which was written for each model. First, the next best answer (k-nearest-neighbors in vector space of the embeddings --> k = 1) is taken and we see how well it can generate the answer based on the data set of 100 questions and how often it is wrong.
+The results of the evaluation are based on the RAG algorithm, which was written for each model. First, the next best answer (k-nearest-neighbors in vector space of the embeddings --> k = 1) is taken and we see how well it can generate the answer based on the data set of 100 questions of SAP-specific knowledge and how often it is wrong.
 
 In the 2nd part of the evaluation, k is set to 3 to see how RAG works for each of the 3 nearest embeddings for the different models and how well they perform when considering multiple neighbor embeddings.
 
