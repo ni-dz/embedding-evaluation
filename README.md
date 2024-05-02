@@ -1,6 +1,8 @@
 # Evaluation of different Embedding Models based on a SAP-specific German Dataset with mock questions
 
-The evaluation structure can be seen in the Jupyter Notebook (embedding_evaluation.ipynb)
+## It does matter which embedding model to choose when using RAG!
+
+The evaluation structure can be seen in the Jupyter Notebook (embedding_evaluation.ipynb).
 
 ## RAG(E)
 
