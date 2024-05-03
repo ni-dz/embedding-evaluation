@@ -42,11 +42,13 @@ Best model (for this dataset in German): text-embedding-3-large
 
 - Failure Score Mistral Embedding Model (mistral-embed):          2   => 98 %
 - Failure Score OpenAI Embedding Model (text-embedding-ada-002):  2   => 98 %
-- Failure Score OpenAI Embedding Model (text-embedding-3-small):  2   => 98 %
-- Failure Score OpenAI Embedding Model (text-embedding-3-large):  2   => 98 %
+- Failure Score OpenAI Embedding Model (text-embedding-3-small):  3   => 97 %
+- Failure Score OpenAI Embedding Model (text-embedding-3-large):  4   => 96 %
 
-Best model (for this dataset in German): all equal
+Best model (for this dataset in German): mistral-embed, text-embedding-ada-002
 
 Here you can see very clearly that different models perform differently as soon as you use several neighbors as comparison vectors for answers and questions. If you now connect an LLM and compare the 3 answers based on the input prompt and the LLM decides, the accuracy of the answers would be greatly improved.
+
+Given the large number of variables and methods, it is quite possible that the naming of some of them may have been mixed up and the results may be distorted as a result. However, I have checked the notebook several times and it should now perform correct calculations in most cases.
 
 ### If you got any questions or feedback regarding this research, please reach out to me anytime via Teams or Mail (niklasdziwisch@web.de)
